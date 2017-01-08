@@ -98,7 +98,11 @@ $nav-link
 
 .main-nav-link
     @extend $nav-link
+    padding: 0 10px
     font-weight: 300
+    font-size: 20px
+    font-weight: bold
+    text-transform: uppercase
 
 #sub-nav
     @media mq-normal
@@ -131,7 +135,7 @@ $nav-link
             width: 100%
             padding: 0 30px 0 15px
             line-height: logo-height
-            height: logo-height !important
+            height: logo-height * .5 !important
             border-radius: ((logo-height + 2)/2)
             &::-webkit-search-results-decoration
             &::-webkit-search-cancel-button
